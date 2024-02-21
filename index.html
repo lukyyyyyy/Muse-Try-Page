@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Muse Official Website</title>
+    <link rel="icon" href="C:\Users\Lucas\Learning html for 5 time\Images\image2.ico" type="image/vnd.microsoft.icon">
+</head>
+<body style="background-color: black;">
+
+
+
+    <header>
+        <div class="headerdiv">
+            <nav id="main-nav">
+                <a href="index.html"><img src="C:\Users\Lucas\Learning html for 5 time\Images\image5.png" ></a>
+                <ul id="ul1">
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="video-slider-container">
+        <div class="video-slider">
+            <div class="slide" id="video1">
+                
+
+                <video autoplay muted loop>
+                    <source src="C:\Users\Lucas\Learning html for 5 time\Videos\video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+               
+                <img src="C:\Users\Lucas\Learning html for 5 time\Images\image8.png">
+            
+            </div>
+            
+            <div class="slide" id="video2">
+                <video>
+                    <source src="C:\Users\Lucas\Learning html for 5 time\Videos\video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+        </div>
+
+        <button class="left" onclick="changeSlide(-1)">
+            <img src="C:\Users\Lucas\Learning html for 5 time\Images\image7.png" alt="Previous">
+        </button>
+
+        <button class="right" onclick="changeSlide(1)">
+            <img src="C:\Users\Lucas\Learning html for 5 time\Images\image6.png" alt="Next">
+        </button>
+    </div>
+
+<div class="notificationdiv">
+    <button id="notificationButton" onclick="requestNotificationPermission()">Get Notifications</button>
+</div>
+
+<div>
+<h2 id="sexotilin">NEWS</h2>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
